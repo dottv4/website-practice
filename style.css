@@ -1,0 +1,86 @@
+@import url('https://fonts.cdnfonts.com/css/hero-new');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Hero New", sans-serif;
+    border: 1px solid red;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+p,
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 10px 34px;
+    border-radius: 8px;
+    font-weight: 900;
+    font-size: 18px;
+    border: 0;
+}
+
+.image-header {
+    color: #e5e7eb;
+}
+
+.container {
+    /* outline: 1px dotted lightgreen; */
+    display: flex;
+    flex-direction: column;
+    /* padding: 8px 50px 50px 300px; */
+    flex-basis: 500px;
+}
+
+.top-items {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    /* outline: 1px dotted lightyellow; */
+    align-items: flex-start;
+    padding-bottom: 150px;
+}
+
+.title-info {
+    /* outline: 2px solid purple; */
+}
+
+.container-two {
+    /* outline: 1px dotted pink; */
+}
+
+.link {
+    /* outline: 1px dotted cyan; */
+}
+
+.header-logo {
+    /* outline: 1px dotted orange; */
+    margin-bottom: 50px;
+}
