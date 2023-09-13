@@ -5,13 +5,12 @@ body {
     padding: 0px;
     box-sizing: border-box;
     font-family: "Hero New", sans-serif;
-    border: 1px solid red;
-    color: white;
+    /* border: 1px solid red; */
 }
 
-/* * {
+* {
     outline: 2px solid lightblue;
-} */
+}
 
 .header {
     background-color: #1f2937;
@@ -67,23 +66,152 @@ a {
 
 .right {
     height: fit-content;
-    margin-left: -700px;
+    margin-left: -290px;
 }
 
 .left {
     display: flex;
     flex-flow: column wrap;
     flex-basis: 500px;
-    margin-right: -200px;
 }
 
 img {
     width: 600px;
     height: 300px;
-    margin: 200px -791px 0px 0px;
+    margin: 200px -400px 0px 0px;
     box-shadow: 0px 2px 5px black;
 }
 
 .object-2 {
     margin-top: 133px;
+}
+
+.info-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.image-container {
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.text {
+    color: rgb(75, 75, 75);
+    font-size: 18px;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: none;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote p {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote {
+    width: 926px;
+    display: flex;
+    flex-direction: column;
+}
+
+.citation {
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: 700;
+    margin-top: -34px;
+    align-self: center;
+    margin-left: 570px;
+}
+
+.wrapper {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-container {
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    width: 1000px;
+    border-radius: 12px;
+}
+
+.sign-title {
+    color: #F9FAF8;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.sign-text {
+    font-size: 20px;
+    font-weight: 400;
+    color: #e5e7eb;
+}
+
+.sign-button {
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+    padding: 25px;
+}
+
+.sign-button button {
+    background-color: #3882f6;
+    box-shadow: none;
+    border: 2px solid white;
+    color: #F9FAF8;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 10px 50px;
+}
+
+.footer {
+    background-color: #1f2937;
+    width: auto;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: #e5e7eb;
+    font-size: 18px;
 }
